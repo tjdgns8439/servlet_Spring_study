@@ -15,7 +15,7 @@ import java.util.Map;
 
 
 //*가 있으면 하위에 뭐가 있든 일단 얘가 가장 먼저 호출됨.
-@WebServlet(name = "frontControllerServlet", urlPatterns = "/front-controller/v1/*")
+@WebServlet(name = "frontControllerServletV1", urlPatterns = "/front-controller/v1/*")
 public class FrontControllerServletV1 extends HttpServlet {
 
     //매핑정보 담을 Map생성, <usl, 컨트롤러>
